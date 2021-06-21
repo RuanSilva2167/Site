@@ -1,0 +1,293 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(13, 19, 107);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.titulo-navbar {
+    margin-left: 300px;
+    font-color: rgb(240, 240, 240);
+    font-size: medium;
+}
+
+header {
+    background-image: url(../img/background-header.jpg);
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked~img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.form-control {
+    border-radius: 0;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    box-sizing: border-box;
+    width: 342px;
+    height: 42px;
+}
+
+.pasteldecarne {
+    text-decoration: none;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: inline-block;
+}
+
+.coxinhadefrango {
+    margin-top: -22px;
+}
+
+#asssbora li {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    width: 40px;
+    height: 50px;
+    margin: auto;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+.video {
+    float: right;
+}
+
+h3 {
+    margin: 5px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: darkblue;
+    height: 50px;
+    text-align: center;
+}
+
+h4 {
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    background-color: darkblue;
+    height: 50px;
+    text-align: center;
+}
+
+#img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 25px;
+}
+
+.container2 {
+    display: none;
+}
+
+.container1 {
+    display: none;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    width: 940px;
+    height: 50px;
+    margin: auto;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+.painela {
+    margin: 15px 115px 1px;
+    padding: 10px;
+    width: 510px;
+    height: 400px;
+    float: right;
+    background-color: white;
+}
+
+.painelb {
+    margin: 15px 115px;
+    padding: 10px;
+    width: 550px;
+    height: 450px;
+    float: top;
+    background-color: white;
+}
+
+#im1 {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin: 25px;
+}
+
+.metodos {
+    display: inline;
+    margin-left: 20px;
+    background-color: green;
+    margin: 15px 115px;
+}
+
+.nde {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: none;
+    background-color: white;
+}
+
+.coleg {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: none;
+    background-color: white;
+}
+
+.prof {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: none;
+    background-color: white;
+}
+
+.ss,
+.ss1,
+.ss2,
+.ss3,
+.ss4,
+.ss5,
+.ss6,
+.ss7 {
+    display: none;
+}
+
+table {
+    margin: 50px;
+    margin-left: 200px;
+    width: 940px;
+    border: 1px solid black;
+}
+
+tr,
+td {
+    background-color: white;
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+}
+
+th {
+    background-color: #86b7fe;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#botaoo {
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    margin-right: 22px;
+    width: 141px;
+}
+
+#color {
+    background-color: blue;
+}
